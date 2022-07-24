@@ -1,0 +1,41 @@
+
+
+
+
+
+@font-face {
+    font-family: miestilo;
+    src: url("../fuentes/DramaticHeartsBold_PERSONAL_USE_ONLY.otf");
+    font-weight: 800;
+    text-shadow: chocolate;
+}
+
+
+@font-face {
+    font-family: miletra;
+    src: url("../fuentes/Cafetería\ España.otf");
+    font-weight: 800;
+   
+}
+
+
+h1 {
+
+    font-family: miestilo;
+    font-weight: 800;
+    color: pink;
+}
+
+h2 {
+
+font-family: miletra;
+color: magenta;
+
+
+
+}
+
+
+@media screen {
+    
+}

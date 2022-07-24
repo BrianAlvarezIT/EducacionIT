@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios ::: Fullstack</title>
+
+</head>
+<body>
+
+    <hr>
+
+
+    <h1> Modulo de Formularios</h1>
+
+
+
+    <hr>
+
+    <form method="get" action="http://mibasededatos.com/formulario.">
+
+
+
+<label>Nombre:</label>
+<input maxlength="10" placeholder="Maximo 10 caracteres" required>
+
+
+<label for="apellido">Apellido</label>
+<input type="text" name="apellido" placeholder="introduce tu apellido" required >
+
+
+<label for="password">Password</label>
+<input type="Password" name="password" id="password" minlength="8" placeholder="Minimo 8 caracteres" required>
+
+
+<label for="email">Email</label>
+<input type="email" name="email" id="email" required>
+
+<label for="edad">Edad</label>
+<input type="number" required>
+
+<br>
+
+<h4>Subi tu archivo</h4>
+
+<input type="file" name="Archivo" >
+
+
+<button>Enviar</button>
+<input type="button" value="Enviar datos">
+
+</form>
+
+<hr>
+<br>
+<hr>
+
+
+<h1>Seleccione su puesto</h1>
+
+<form method="post">
+
+
+    
+  <label for="Puestos"> Puestos de trabajo:</label>
+  
+  <br>
+
+    <input type="checkbox" name="Director" checked > Director </input> <br>
+    <input type="checkbox" name="Comercial"> Comercial </input> <br>
+    <input type="checkbox" name="Sistemas"> Sistemas </input> <br>
+    <input type="checkbox" name="Operario"> Operario </input> <br>
+    <br>
+
+    <label for="sexo">Sexo:</label> <br>
+
+    <input type="radio" name="sexo" value="Hombre" checked> Hombre  <br>
+    <input type="radio" name="sexo" value="mujer"> Mujer  <br>
+
+    <button>Enviar</button>
+    <input type="button" value="Enviar datos">
+    
+    
+    </form>
+
+
+
+
+
+
+
+
+
+<script src="./js/index.js"></script>
+    
+</body>
+</html>
