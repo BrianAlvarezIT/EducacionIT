@@ -1,0 +1,67 @@
+
+
+
+
+
+img {
+
+width: 100%;
+height: 370px;
+
+}
+
+
+body {
+color: #775548;
+background-color: #EDECE9;
+    font-family: Verdana, Arial, sans-serif
+    
+}
+
+a {
+
+font-weight: bold;
+color: #EF6D24
+
+}
+
+.sub{
+    background-color:#775548 ;
+    color: white;
+    
+
+
+
+}
+
+h1 {
+
+    color: #775548;
+}
+
+.lanacion {
+    color: #3BB2CC;
+
+
+}
+
+.pagina12 {
+color:#EF4B51;
+
+}
+
+.elegirnos {
+    color: #D8B03B;
+    background-color:#775548 ;
+}
+
+
+.bold   {
+
+    font-weight: bold;
+}
+
+.lista {
+
+    list-style: a;
+}

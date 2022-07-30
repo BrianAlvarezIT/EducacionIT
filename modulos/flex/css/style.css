@@ -1,0 +1,21 @@
+.container {
+
+
+    display: flex;
+    border: solid red ;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.hijo   {
+
+border: solid black 3px;
+margin: 20px;
+height: 200px;
+width: 200px;
+background-color: pink;
+
+
+}
